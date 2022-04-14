@@ -288,7 +288,7 @@ end)
 
 
  --// Premium User //--
-local user_premium__001 = game.Players.toosie20k --// Replace "User101" with your username (NOT DISPLAY) //--
+local user_premium__001 = game.Players.Tellybellygoat --// Replace "User101" with your username (NOT DISPLAY) //--
 
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
